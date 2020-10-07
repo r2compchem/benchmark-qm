@@ -28,8 +28,10 @@ Compilation details: [click here](./compile/README.md)
 
 **specification**
 
-|  Architecture | x86_64 |
+
+|   |   |
 | --- | --- |
+|  Architecture | x86_64 |
 |  CPU op-mode(s) | 32-bit, 64-bit |
 |  CPU(s) | 32 |
 |  Thread(s) per core | 2 |
