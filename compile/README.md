@@ -1,9 +1,32 @@
 ## Compilation details
 
-### GCC
+### ORCA
+OpenMPI 3.1.3
+GNU 5.4.0
 
-### OpenMPI
+### NWChem
+OpenBLAS 0.3.10
+OpenMPI 3.1.3
+GNU 8.3.0
 
-### OpenBLAS
+### GAMESS-US
+OpenBLAS 0.3.10
+Socket
+GNU 4.8.5
 
-### CUDA
+### PySCF
+OpenBLAS 0.3.10
+Build-in Multithreading in Python 3.7
+GNU 8.3.0
+
+### Psi4
+Build-in Multithreading in Python 3.7
+
+### Firefly
+OpenMPI 2.0.3 32bit
+GNU 4.8.5
+
+### Dalton
+OpenBLAS 0.3.10
+OpenMPI 2.0.3 
+GNU 4.8.5
