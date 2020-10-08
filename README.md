@@ -1,6 +1,18 @@
 # Benchmark Quantum Chemistry Packages
 Let's benchmark quantum chemistry packages! Who will be the winner?
 
+## Packages included:
+**Gaussian**
+**ORCA**
+**Turbomole**
+**NWChem**
+**Q-Chem**
+**GAMESS-US**
+**PySCF**
+**Psi4**
+**Firefly**
+**Dalton**
+
 ## Benchmark results
 
 **No.1**
@@ -8,7 +20,7 @@ Let's benchmark quantum chemistry packages! Who will be the winner?
 - Task: Single-point energy calculation <br>
 - Method: DFT B3LYP/6-31G(d)
 
-|  **No. cores** | **Gaussian 09** | **Gaussian 16** | **ORCA 4.1.2** | **Turbomole 7.1** | **NWChem 7.0.0** | **Q-Chem 5.0** | **GAMESS-US 2020R1** | **PySCF** | **Psi4 1.3.2** | **Firefly 8.2.0** | **Dalton 2018** |
+|  **No. cores** | **Gaussian 09** | **Gaussian 16** | **ORCA 4** | **Turbomole 7** | **NWChem 7** | **Q-Chem 5** | **GAMESS-US 2020** | **PySCF** | **Psi4 1.3** | **Firefly 8** | **Dalton 2018** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |  **1** | 191.4 | 535.1 | 573.0 | 205.0 | 1071.9 | 195.6 | 766.2 | 1758.9 | 726.2 | 1031.8 | 1502.0 |
 |  **2** | 109.0 | 281.8 | 290.0 | 99.0 | 801.2 | 87.9 | 389.1 | 889.3 | 372.2 | 531.2 | 6215.0 |
@@ -24,8 +36,14 @@ Let's benchmark quantum chemistry packages! Who will be the winner?
 - Details of program and packages compilations: [click here](./compile/README.md)
 - Specification of compute node: [click here](./misc/README.md)
 
-## Next Plan?
+## Comments
+We **do not** aim at showing the preference of one package over another, users should choose packages according to:
+1. Familiarity
+2. Features
+3. Hardwares
+rather than a simple speed comparison.
 
+## Next Plan?
 1. MP2/cc-pVTZ calculation
 2. CCSD(T)/cc-pVTZ calculation
 3. Performance benchmarking on the robutness of geometry optimization engine
