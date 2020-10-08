@@ -55,4 +55,4 @@ which are more important than a simple speed comparison.
 4. Frequency calculation
 
 ## Contact
-All suggestions, comments, pull requestns, etc. are welcome. Please write us at r2compchem@gmail.com
+All suggestions, comments, pull requests, etc are welcome. Please write us at r2compchem@gmail.com.
