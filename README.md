@@ -2,15 +2,15 @@
 Let's benchmark quantum chemistry packages! Who will be the winner?
 
 ## Packages included:
-**Gaussian**
-**ORCA**
-**Turbomole**
-**NWChem**
-**Q-Chem**
-**GAMESS-US**
-**PySCF**
-**Psi4**
-**Firefly**
+**Gaussian** \
+**ORCA** \
+**Turbomole** \
+**NWChem** \
+**Q-Chem** \
+**GAMESS-US** \
+**PySCF** \
+**Psi4** \
+**Firefly** \
 **Dalton**
 
 ## Benchmark results
@@ -41,6 +41,7 @@ We **do not** aim at showing the preference of one package over another, users s
 1. Familiarity
 2. Features
 3. Hardwares
+
 rather than a simple speed comparison.
 
 ## Next Plan?
