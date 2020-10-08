@@ -29,7 +29,7 @@ Let's benchmark quantum chemistry packages! Who will be the winner?
 |  **16** | 43.0 | 68.6 | 45.5 | 14.2 | 179.2 | 16.7 | 90.1 | 135.5 | 60.2 | 79.3 | 456.0 |
 
 <p align="center">
-   <img alt="benchmark_20.png" src="https://raw.githubusercontent.com/r2compchem/benchmark-qm/master/benchmark/bench_c20_cpu_b3lyp_631gd_def.png" align=middle width="1000pt" />
+   <img alt="benchmark_20.png" src="https://raw.githubusercontent.com/r2compchem/benchmark-qm/master/benchmark/bench_c20_cpu_b3lyp_631gd_def.png" align=middle width="800pt" />
 <p/>
 
 ## Note for computational details:
