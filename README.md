@@ -42,7 +42,7 @@ We **do not** aim at showing the preference of one package over another, users s
 2. Type of calculation
 3. Hardwares available
 
-, which are more important than a simple speed comparison.
+which are more important than a simple speed comparison.
 
 ## Next Plan?
 1. MP2/cc-pVTZ calculation
