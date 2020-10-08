@@ -20,7 +20,7 @@ Let's benchmark quantum chemistry packages! Who will be the winner?
 - Task: Single-point energy calculation <br>
 - Method: DFT B3LYP/6-31G(d)
 
-|  **No. cores** | **Gaussian 09** | **Gaussian 16** | **ORCA 4** | **Turbomole 7** | **NWChem 7** | **Q-Chem 5** | **GAMESS-US 2020** | **PySCF** | **Psi4 1.3** | **Firefly 8** | **Dalton 2018** |
+|  **No. cores** | **Gaussian 09** | **Gaussian 16** | **ORCA 4** | **Turbomole 7** | **NWChem 7** | **Q-Chem 5** | **GAMESS-US 2020** | **PySCF 1.7** | **Psi4 1.3** | **Firefly 8** | **Dalton 2018** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |  **1** | 191.4 | 535.1 | 573.0 | 205.0 | 1071.9 | 195.6 | 766.2 | 1758.9 | 726.2 | 1031.8 | 1502.0 |
 |  **2** | 109.0 | 281.8 | 290.0 | 99.0 | 801.2 | 87.9 | 389.1 | 889.3 | 372.2 | 531.2 | 6215.0 |
@@ -37,12 +37,12 @@ Let's benchmark quantum chemistry packages! Who will be the winner?
 - Specification of compute node: [click here](./misc/README.md)
 
 ## Comments
-We **do not** aim at showing the preference of one package over another, users should choose packages according to:
-1. Familiarity
-2. Features
-3. Hardwares
+We **do not** aim at showing the preference of one package over another, users should choose packages according to their:
+1. Degree of familiarity
+2. Type of calculation
+3. Hardwares available
 
-rather than a simple speed comparison.
+, which are more important than a simple speed comparison.
 
 ## Next Plan?
 1. MP2/cc-pVTZ calculation
