@@ -15,4 +15,8 @@
 |  Model name | AMD Ryzen Threadripper 1950X 16-Core Processor |
 |  CPU MHz | 3600 |
 |  No. of processors | 16 |
-|  Total Memory/proc | 2 GB |
+|  Total Memory | 32 GB |
+|  Memory Type | DDR4@2666MHz |
+|  Hard Disk | 2TB SSD TLC | 
+
+Hyperthreading is on when benchmarking.
