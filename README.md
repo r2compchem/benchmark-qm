@@ -2,16 +2,17 @@
 Let's benchmark quantum chemistry packages! Who will be the winner?
 
 ## Packages for comparison:
-**Gaussian** \
-**ORCA** \
-**Turbomole** \
-**NWChem** \
-**Q-Chem** \
-**GAMESS-US** \
-**PySCF** \
-**Psi4** \
-**Firefly** \
-**Dalton**
+
+Gaussian \
+ORCA \
+Turbomole \
+NWChem \
+Q-Chem \
+GAMESS-US \
+PySCF \
+Psi4 \
+Firefly \
+Dalton
 
 ## Benchmark results
 
