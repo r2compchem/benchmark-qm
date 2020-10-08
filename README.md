@@ -31,7 +31,7 @@ Let's benchmark quantum chemistry packages! Who will be the winner?
 
 ## Note for computational details:
 - Default DIIS
-- Convergence criteria: using default values of each package (e.g. GAMESS-US uses density difference)
+- Using default values of each package for convergence criteria, integral grids, etc.
 - In ORCA, Psi4, and Turbomole, RI (or DF) approaximation is turned off
 - Details of program and packages compilations: [click here](./compile/README.md)
 - Specification of compute node: [click here](./misc/README.md)
