@@ -50,8 +50,8 @@ which are more important than a simple speed comparison.
 ## Next Plan?
 1. MP2/cc-pVTZ calculation
 2. CCSD(T)/cc-pVTZ calculation
-3. Performance benchmarking on the robutness of geometry optimization engine
+3. Performance benchmarking on the robustness of geometry optimization engine
 4. Frequency calculation
 
 ## Contact
-All suggestions, comments, pull requestions, etc. are welcome. Please write us at r2compchem@gmail.com
+All suggestions, comments, pull requestns, etc. are welcome. Please write us at r2compchem@gmail.com
