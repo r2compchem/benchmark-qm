@@ -24,7 +24,7 @@ Build-in Multithreading in Python 3.7
 
 ### Firefly
 OpenMPI 2.0.3 32bit \
-GNU 4.8.5 \
+GNU 4.8.5 
 
 ### Dalton
 OpenBLAS 0.3.10 \
