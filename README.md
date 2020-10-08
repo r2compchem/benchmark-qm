@@ -19,16 +19,15 @@ Let's benchmark quantum chemistry packages! Who will be the winner?
 
 ## Note for computational details:
 - Default DIIS
-- Convergence criteria: energy diffeent cutoff is 1e-6
-- GAMMES uses density difference
-- Turbomol's RI-DFT is turned off
+- Convergence criteria: using default values of each package (e.g. GAMESS-US uses density difference)
+- In ORCA, Psi4, and Turbomole, RI (or DF) approaximation is turned off
 - Details of program and packages compilations: [click here](./compile/README.md)
 - Specification of compute node: [click here](./misc/README.md)
 
 ## Next Plan?
 
-1. MPI calculation
-2. CCSD(T) calculation
+1. MP2/cc-pVTZ calculation
+2. CCSD(T)/cc-pVTZ calculation
 3. Performance benchmarking on the robutness of geometry optimization engine
 4. Frequency calculation
 
