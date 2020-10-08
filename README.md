@@ -1,7 +1,7 @@
 # Benchmark Quantum Chemistry Packages
 Let's benchmark quantum chemistry packages! Who will be the winner?
 
-## Packages included:
+## Packages for comparison:
 **Gaussian** \
 **ORCA** \
 **Turbomole** \
