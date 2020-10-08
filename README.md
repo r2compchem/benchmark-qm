@@ -28,6 +28,9 @@ Let's benchmark quantum chemistry packages! Who will be the winner?
 |  **8** | 52.0 | 117.4 | 78.7 | 24.8 | 301.9 | 24.6 | 130.1 | 251.2 | 102.1 | 140.5 | 940.0 |
 |  **16** | 43.0 | 68.6 | 45.5 | 14.2 | 179.2 | 16.7 | 90.1 | 135.5 | 60.2 | 79.3 | 456.0 |
 
+<p align="center">
+   <img alt="benchmark_20.png" src="https://raw.githubusercontent.com/r2compchem/benchmark-qm/master/benchmark/bench_c20_cpu_b3lyp_def.png" align=middle width="200pt" />
+<p/>
 
 ## Note for computational details:
 - Default DIIS
