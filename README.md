@@ -40,11 +40,11 @@ Dalton
 - Details of program and packages compilations: [click here](./compile/README.md)
 - Specification of compute node: [click here](./misc/README.md)
 
-## Comments
+## Disclaimers
 We **do not** aim at showing the preference of one package over another, users should choose packages according to their:
-1. Degree of familiarity
+1. Level of familiarity
 2. Type of calculation
-3. Hardwares available
+3. Hardwares availability
 
 which are more important than a simple speed comparison.
 
