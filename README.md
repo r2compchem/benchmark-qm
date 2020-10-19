@@ -7,7 +7,7 @@ Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalt
 
 ## Benchmark results
 
-**No.1**
+**No.1 : General test**
 - Molecule: C20 (charge = 0 and spin mult. = 1)<br>
 - Task: Single-point energy calculation <br>
 - Method: DFT B3LYP/6-31G(d)
@@ -21,7 +21,25 @@ Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalt
 |  **16** | 43.0 | 68.6 | 45.5 | 14.2 | 179.2 | 16.7 | 90.1 | 135.5 | 60.2 | 79.3 | 456.0 |
 
 <p align="center">
-   <img alt="benchmark_20.png" src="https://raw.githubusercontent.com/r2compchem/benchmark-qm/master/benchmark/bench_c20_cpu_b3lyp_631gd_def.png" align=middle width="800pt" />
+   <img alt="benchmark_20.png" src="https://raw.githubusercontent.com/r2compchem/benchmark-qm/master/benchmark/bench_c20_cpu_b3lyp_631gd_def.png" align=middle width="900pt" />
+<p/>
+
+**No.2 : Gaussian 16 GPU**
+- Molecule: C20 (charge = 0 and spin mult. = 1)<br>
+- Task: Single-point energy calculation <br>
+- Method: DFT B3LYP/6-31G(d)
+- 4 x NVIDIA V100 SXM2 / Intel Xeon Gold 6132 CPU @ 2.60GHz
+
+|  **No. actual used CPU cores** | **No GPU** | **1 GPU** | **2 GPUs** | **4 GPUs** |
+| :---: | :---: | :---: | :---: | :---: |
+|  **1** | 757.2 | 181.4 | 153.9 | 107.2 |
+|  **2** | 406.5 | 157.5 | 134.2 | 97.5 |
+|  **4** | 241.2 | 146.5 | 123.3 | 61.9 |
+|  **8** | 164.6 | 88.4 | 70.8 | 56 |
+|  **16** | 88.9 | 63.7 | 57.1 | 47.4 |
+
+<p align="center">
+   <img alt="benchmark_20.png" src="https://raw.githubusercontent.com/r2compchem/benchmark-qm/master/benchmark/bench_c20_g16_gpu_b3lyp_def.png" align=middle width="580pt" />
 <p/>
 
 ## Note for computational details:
