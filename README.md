@@ -46,6 +46,7 @@ Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalt
 - Default DIIS
 - Using default values of each package for convergence criteria, integral grids, etc.
 - In ORCA, Psi4, and Turbomole, RI (or DF) approaximation is turned off
+- GAMESS and Firefly use the SCF density change as a convergence criteria. For more details please check [CONV keyword](https://www.msg.chem.iastate.edu/gamess/GAMESS_Manual/docs-input.txt). 
 - Details of program and packages compilations: [click here](./compile/README.md)
 - Specification of compute node: [click here](./misc/README.md)
 
@@ -58,10 +59,11 @@ We **do not** aim at showing the preference of one package over another, users s
 which are more important than a simple speed comparison.
 
 ## Next Plan?
-1. MP2/cc-pVTZ calculation
-2. CCSD(T)/cc-pVTZ calculation
-3. Performance benchmarking on the robustness of geometry optimization engine
-4. Frequency calculation
+1. DFT - SCF with the energy convergence cutoff of 1e-8
+2. MP2/cc-pVTZ calculation
+3. CCSD(T)/cc-pVTZ calculation
+4. Performance benchmarking on the robustness of geometry optimization engine
+5. Gradient calculation
 
 ## Contact
 All suggestions, comments, pull requests, etc are welcome. Please write us at r2compchem@gmail.com.
