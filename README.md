@@ -3,7 +3,7 @@ Let's benchmark quantum chemistry packages! Who will be the winner?
 
 ## Packages for comparison:
 
-Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalton
+Gaussian 09, Gaussian 16, ORCA 4, Turbomole 7, NWChem 7, Q-Chem 5, GAMESS-US 2020, PySCF 1.7, Psi4 1.3, Firefly 8, Dalton 2018
 
 ## Benchmark results
 
