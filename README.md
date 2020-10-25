@@ -42,7 +42,7 @@ Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalt
    <img alt="benchmark_20.png" src="https://raw.githubusercontent.com/r2compchem/benchmark-qm/master/benchmark/bench_c20_g16_gpu_b3lyp_def.png" align=middle width="580pt" />
 <p/>
 
-**Comment:** Note that one CPU will be sacrified to control one GPU. It means that CPUs used as GPU controllers do not participate as compute nodes during the parts of the calculation that are GPU-parallel.
+**Comment:** Note that one CPU will be sacrified to control one GPU. It means that CPUs used as GPU controllers do not participate as compute nodes during the parts of the calculation that are GPU-parallel. For example, for running calculation on 16 CPUs and 4 GPUs, the total number of CPUs that used for this job is 20 CPUs.
 
 ## Note for computational details:
 - Default DIIS
