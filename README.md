@@ -8,8 +8,9 @@ Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalt
 ## Benchmark results
 
 **No.1 : General test**
-- Molecule: C20 (charge = 0 and spin mult. = 1)<br>
-- Task: Single-point energy calculation <br>
+- Molecule: C20
+- Properties: 20 atoms, charge = 0 and spin mult. = 1
+- Task: Single-point energy calculation
 - Method: DFT B3LYP/6-31G(d)
 
 |  **No. cores** | **Gaussian 09** | **Gaussian 16** | **ORCA 4** | **Turbomole 7** | **NWChem 7** | **Q-Chem 5** | **GAMESS-US 2020** | **PySCF 1.7** | **Psi4 1.3** | **Firefly 8** | **Dalton 2018** |
@@ -24,9 +25,22 @@ Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalt
    <img alt="benchmark_20.png" src="https://raw.githubusercontent.com/r2compchem/benchmark-qm/master/benchmark/bench_c20_cpu_b3lyp_631gd_def.png" align=middle width="900pt" />
 <p/>
 
-**No.2 : Gaussian 16 GPU**
-- Molecule: C20 (charge = 0 and spin mult. = 1)<br>
-- Task: Single-point energy calculation <br>
+**No.2 : SCF energy cutoff 1e-8**
+- Molecule: C20
+- Properties: 20 atoms, charge = 0 and spin mult. = 1
+- Task: Single-point energy calculation
+- Method: DFT B3LYP/6-31G(d)
+- SCF cutoff: 1e-8
+
+<br>
+
+**The result is coming ...**
+
+<br>
+
+**No.3 : Gaussian 16 with GPU acceleration**
+- Molecule: C20 (xyz coordinate)
+- Properties: 20 atoms, charge = 0 and spin mult. = 1
 - Method: DFT B3LYP/6-31G(d)
 - 4 x NVIDIA Tesla V100 SXM2 32 GB / Intel Xeon Gold 6132 CPU @ 2.60GHz
 
@@ -43,6 +57,30 @@ Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalt
 <p/>
 
 **Comment:** Note that one CPU will be sacrified to control one GPU. It means that CPUs used as GPU controllers do not participate as compute nodes during the parts of the calculation that are GPU-parallel. For example, for running calculation on 16 CPUs and 4 GPUs, the total number of CPUs that used for this job is 20 CPUs.
+
+**No.4 : MP2 test**
+- Molecule: Aspirin (xyz coordinate)
+- Properties: 21 atoms, charge = 0 and spin mult. = 1
+- Task: Single-point energy calculation
+- Method: MP2/cc-pVTZ
+
+<br>
+
+**The result is coming ...**
+
+<br>
+
+**No.5 : CCSD(T) test**
+- Molecule: Cyclopropane (xyz coordinate)
+- Properties: 9 atoms, charge = 0 and spin mult. = 1
+- Task: Single-point energy calculation
+- Method: CCSD(T)/cc-pVTZ
+
+<br>
+
+**The result is coming ...**
+
+<br>
 
 ## Note for computational details:
 - Default DIIS
