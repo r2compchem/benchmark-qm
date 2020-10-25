@@ -28,7 +28,7 @@ Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalt
 - Molecule: C20 (charge = 0 and spin mult. = 1)<br>
 - Task: Single-point energy calculation <br>
 - Method: DFT B3LYP/6-31G(d)
-- 4 x NVIDIA V100 SXM2 / Intel Xeon Gold 6132 CPU @ 2.60GHz
+- 4 x NVIDIA Tesla V100 SXM2 32 GB / Intel Xeon Gold 6132 CPU @ 2.60GHz
 
 |  **No. actual used CPU cores** | **No GPU** | **1 GPU** | **2 GPUs** | **4 GPUs** |
 | :---: | :---: | :---: | :---: | :---: |
@@ -42,9 +42,11 @@ Gaussian, ORCA, Turbomole, NWChem, Q-Chem, GAMESS-US, PySCF, Psi4, Firefly, Dalt
    <img alt="benchmark_20.png" src="https://raw.githubusercontent.com/r2compchem/benchmark-qm/master/benchmark/bench_c20_g16_gpu_b3lyp_def.png" align=middle width="580pt" />
 <p/>
 
+**Comment:** Note that one CPU will be sacrified to control one GPU. It means that CPUs used as GPU controllers do not participate as compute nodes during the parts of the calculation that are GPU-parallel.
+
 ## Note for computational details:
 - Default DIIS
-- Using default values of each package for convergence criteria, integral grids, etc.
+- Using default values of each package for convergence criteria, integral grids, etc. Unless otherwise stated.
 - In ORCA, Psi4, and Turbomole, RI (or DF) approaximation is turned off
 - GAMESS and Firefly use the SCF density change as a convergence criteria. For more details please check [CONV keyword](https://www.msg.chem.iastate.edu/gamess/GAMESS_Manual/docs-input.txt). 
 - Details of program and packages compilations: [click here](./compile/README.md)
