@@ -90,6 +90,18 @@ Gaussian 09, Gaussian 16, ORCA 4, Turbomole 7, NWChem 7, Q-Chem 5, GAMESS-US 202
 - Details of program and packages compilations: [click here](./compile/README.md)
 - Specification of compute node: [click here](./misc/README.md)
 
+## Note for Gaussian:
+Changes in Defaults between Gaussian 09 and Gaussian 16:
+
+    a.  Integral accuracy is 10^-12 rather than 10^-10 in G09
+    b.  The default DFT grid for general use is UltraFine rather than
+        FineGrid in G09; the default grid for CPHF is SG1 rather than
+        CoarseGrid.
+    c.  SCRF defaults to the symmetric form of IEFPCM (not present in G09)
+        rather than the non-symmetric version.
+    d.  Physical constants use the 2010 values rather than the 2006 values
+        in G09.
+
 ## Disclaimers
 We **do not** aim at showing the preference of one package over another, users should choose packages according to their:
 1. Level of familiarity
